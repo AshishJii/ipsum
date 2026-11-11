@@ -23,8 +23,6 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-
-
 <!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Full Posts', 'Name of the Full Posts element', 'ipsum' ); ?>"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"align":"full","layout":{"type":"default"}} -->
 <div class="wp-block-query alignfull"><!-- wp:post-template {"layout":{"type":"default"}} -->
