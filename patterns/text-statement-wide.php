@@ -16,7 +16,7 @@
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:quote {"className":"is-style-plain","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
 <blockquote class="wp-block-quote is-style-plain"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"400"}},"fontSize":"2-x-large"} -->
 <p class="has-2-x-large-font-size" style="font-style:normal;font-weight:400;line-height:1.2"><?php esc_html_e( 'Write the sentence first. The page can wait.', 'ipsum' ); ?></p>
-<!-- /wp:paragraph --><cite><?php esc_html_e( 'From the essays', 'ipsum' ); ?></cite></blockquote>
+<!-- /wp:paragraph --><cite><?php echo wp_kses_post( __( 'From the <a href="#">essays</a>', 'ipsum' ) ); ?></cite></blockquote>
 <!-- /wp:quote --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

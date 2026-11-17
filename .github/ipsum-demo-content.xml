@@ -1748,6 +1748,14 @@ audio/mpeg
 <!-- /wp:paragraph --><cite>Plain · <code>is-style-plain</code></cite></blockquote>
 <!-- /wp:quote -->
 
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"radius":"10px"}},"backgroundColor":"accent-3","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-base-color has-accent-3-background-color has-text-color has-background" style="border-radius:10px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:quote {"className":"is-style-plain-on-color"} -->
+<blockquote class="wp-block-quote is-style-plain-on-color"><!-- wp:paragraph -->
+<p>Plain on Color is the same quote for a card in a strong color: the mark takes the color of the text instead of a faint line.</p>
+<!-- /wp:paragraph --><cite>Plain on Color · <code>is-style-plain-on-color</code></cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:group -->
+
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Images</h2>
 <!-- /wp:heading -->

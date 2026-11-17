@@ -16,7 +16,7 @@
 <div class="wp-block-group has-base-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:quote {"className":"is-style-plain-on-color","style":{"spacing":{"blockGap":"var:preset|spacing|30"},"typography":{"textAlign":"center"}}} -->
 <blockquote class="wp-block-quote has-text-align-center is-style-plain-on-color"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"500","letterSpacing":"-0.02rem","textAlign":"center"}},"fontSize":"x-large"} -->
 <p class="has-text-align-center has-x-large-font-size" style="font-style:normal;font-weight:500;letter-spacing:-0.02rem;line-height:1.3"><?php esc_html_e( 'Write the sentence first. The page can wait.', 'ipsum' ); ?></p>
-<!-- /wp:paragraph --><cite><?php esc_html_e( 'From the essays', 'ipsum' ); ?></cite></blockquote>
+<!-- /wp:paragraph --><cite><?php echo wp_kses_post( __( 'From the <a href="#">essays</a>', 'ipsum' ) ); ?></cite></blockquote>
 <!-- /wp:quote --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
